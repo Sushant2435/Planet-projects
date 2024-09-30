@@ -1,0 +1,19 @@
+.dashboard_container{
+    width:25vw;
+    height: 20vh;
+    border: 2px solid var(--color-red);
+    background-color: rgb(255, 193, 193);
+    /* background-color: var(--color-white); */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0 0 20px;
+    
+}
+
+h3{
+    font-family: "poppins" , "sans-serif";
+}
+
+.dashboard_difference{
+    margin-top: 6vh;
+}

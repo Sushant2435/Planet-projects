@@ -1,0 +1,22 @@
+.add_brand_container{
+    width: 70vw;
+    height: auto;
+    background-color: var(--color-white); 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.4em;
+    border-radius: 10px;
+}
+
+.add_brand_div{
+   display: flex;
+   gap: 10px;
+   font-family: "poppins";
+   font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.add_brand_heading{
+    font-family: "poppins" , "sans-serif";
+    padding-left: 5vw;
+    margin-bottom: 10px;
+}

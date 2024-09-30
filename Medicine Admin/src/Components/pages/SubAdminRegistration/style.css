@@ -1,0 +1,33 @@
+.sub_admin_fields{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    font-family: var(--fontfamily-sansserif);
+    font-size: var(--fontsize-xsmall);
+}
+
+.sub_admin_block{
+    display: block;
+    font-family: var(--fontfamily-sansserif);
+    font-size: var(--fontsize-xsmall);
+}
+
+.sub_admin{
+    font-family: var(--fontfamily-sansserif);
+    font-size: var(--fontsize-xsmall);
+}
+
+.sub_admin_permission{
+    font-family: var(--fontfamily-sansserif);
+    font-size: var(--fontsize-xxsmall);
+    display: flex;
+    gap: 10px;
+}
+
+.sub_admin_permission_heading{
+    text-align:center;
+    margin:20px 0;
+    font-family: var(--fontfamily-sansserif);
+    font-weight: var(--fontweight-medium);
+    text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+.store_register_field{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fontfamily-sansserif);
+    font-size: var(--fontsize-xsmall);
+    margin-bottom: 10px;
+}
+
+.store_register{
+    display: block;
+}
+
+.store_register_name{
+    font-family: var(--fontfamily-sansserif);
+    font-size: var(--fontsize-xsmall);
+}

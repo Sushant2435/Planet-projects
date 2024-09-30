@@ -1,0 +1,42 @@
+.btn_hover {
+    padding: 0.5em 1.4em;
+    background-color: #0DAC7E;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.5s linear;
+    color: #fff;
+}
+
+.btn_hover:hover {
+    background-color:#078763;
+    border-radius: 0;
+    scale: 1.1;
+}
+
+.btn_hover::after{
+    content: '';
+    background: #0DAC7E;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: -1;    
+}
+
+.btn_hover:hover::after {
+    width: 100%;
+}
+
+.btn_hover::after{
+    transition: all 0.5s linear;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.btn_hover:hover::after{
+    transform: translateX(0);
+    opacity: 1;
+}

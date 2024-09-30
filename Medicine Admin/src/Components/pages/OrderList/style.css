@@ -1,0 +1,25 @@
+.order_list_heading{
+    padding-left: 5vw;
+    padding-top: 5vh;
+}
+
+.order_list_head th{
+    background-color: antiquewhite;
+    font-family: "poppins" , "sans-serif";
+    font-size: var(--fontsize-xsmall);
+    padding: 5px 0;
+}
+
+.order_list{
+    display: flex;
+    justify-content: center;
+}
+
+.order_list_table{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.order_list_data td{
+    text-align: center;
+}

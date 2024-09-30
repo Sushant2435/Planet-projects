@@ -1,0 +1,11 @@
+.customer_container {
+    font-family: "poppins" , "sans-serif";
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: var(--fontsize-xsmall);
+    /* position: sticky; */
+}
+
+
+
+

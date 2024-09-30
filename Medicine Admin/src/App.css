@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --fontfamily-sansserif: "Poppins", sans-serif;
+    --fontfamily-serif: "Lora", serif;
+    --fontfamily-cursive: "Dancing Script", cursive;
+
+    --fontColor:"red";
+  
+    --fontsize-xxlarge: 50px;
+    --fontsize-xlarge: 30px;
+    --fontsize-large: 25px;
+    --fontsize-medium: 20px;
+    --fontsize-regular: 18px;
+    --fontsize-small: 16px;
+    --fontsize-xsmall: 14px;
+    --fontsize-xxsmall:12px;
+  
+    --fontweight-black: 700;
+    --fontweight-bold: 600;
+    --fontweight-medium: 500;
+    --fontweight-regular: 400;
+    --fontweight-light: 300;
+  
+    --color-darkblue: #033fc1;
+    --color-mediumblue: #1a8cfe;
+    --color-lightblue: #01b6eb;
+    --color-greyblue: #d5e0f2;
+    --color-darkgrey: #525252;
+    --color-grey: #ccc;
+    --color-lightgrey: #eee;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-shadow: #2a437126;
+    --color-section-head: #97abc0;
+    --color-red: #ff0000;
+    --color-lightred: #ffaeae;
+    --color-green: #4ABF9E;
+  
+    --button-height: 50px;
+    --button-radius: 24px;
+    --button-circle: 100%;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

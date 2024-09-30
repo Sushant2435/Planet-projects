@@ -1,0 +1,66 @@
+.sub_admin_container{
+    font-family: "poppins" , "sans-serif";
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_admin_heading{
+    padding-left: 5vw;
+    font-family: "poppins" , "sans-serif";
+}
+
+.sub_admin_toggle{
+    display: flex;
+    gap: 20px;
+}
+
+.sub_admin_toggle p{
+ font-size: var(--fontsize-xsmall);
+}
+
+.sub_admin_head th{
+   padding: 10px 0;
+   padding-bottom: 15px;
+   font-family: "poppins" , "sans-serif";
+
+}
+
+.sub_admin_table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sub_admin_data td{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+.sub_admin_actions td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_admin_icons{
+    cursor: pointer;
+}
+
+.sub_admin_store{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+
+.sub_admin_store .active{
+    color:#0DAC7E;
+    text-decoration: underline;
+    font-weight: var(--fontweight-medium);
+}

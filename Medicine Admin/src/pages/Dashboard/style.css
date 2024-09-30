@@ -1,0 +1,21 @@
+.dashboard_header{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "poppins" ,"sans-serif";
+
+}
+.dashboard_mid_container{
+    /* background-color: var(--color-lightgrey);    */
+    height: 90vh;
+}
+
+.dashboard_cards{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,50 @@
+
+.customer_details_container{
+    width: 75vw;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    margin-left: 30px;
+    background-color: #d5fff2c7;
+}
+
+.customer_details{
+    /* gap: 25px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.customer_details p{
+    font-family: "poppins" , "sans-serif";
+    font-size: var(--fontsize-xsmall);
+}
+
+.customer_header{
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+h5{
+    font-family: "poppins" , "sans-serif";
+}
+
+.customer{
+    padding-left: 5vw;
+}
+
+.customer_profile{
+    width:8vw;
+    height: 8vw;
+    border-radius: 100%;
+    background-color: antiquewhite;
+}
+
+.customer_details_photo{
+    display:flex;
+    width:20%;
+    flex-direction:column; 
+    justify-content:center;
+}

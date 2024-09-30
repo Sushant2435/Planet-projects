@@ -1,0 +1,22 @@
+.layout_row {
+    display: flex;
+  }
+
+  .layout_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .layout_childrens {
+    width: calc(100vw - 20vw);
+    height: calc(100vh - 20vh);
+    overflow: scroll;
+    justify-content: center;
+  }
+  
+  .layout_childrens::-webkit-scrollbar {
+    display: none;
+  }
+  

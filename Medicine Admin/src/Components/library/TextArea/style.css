@@ -1,0 +1,9 @@
+.text_area_input {
+  width: 50vw;
+  height: 10vh;
+  border: 1px solid rgb(214, 214, 214);
+  outline: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  padding-left: 5px;
+}

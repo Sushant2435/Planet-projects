@@ -1,0 +1,21 @@
+.order_container{
+   width: 75vw;
+   height: 60vh;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   border-radius: 10px;
+}
+
+.order_table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order_head th {
+    font-family: "poppins" , "sans-serif";
+    padding-bottom: 15px;
+}
+
+.order_data td{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}

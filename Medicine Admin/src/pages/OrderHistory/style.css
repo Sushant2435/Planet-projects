@@ -1,0 +1,14 @@
+.order_history{
+   display:flex;
+   gap:30px;
+   padding-left:10px;
+   font-family:var(--fontfamily-sansserif);
+   margin-bottom:10px;
+   cursor:pointer;
+}
+
+.order_history .active{
+   color:#0DAC7E;
+   text-decoration: underline;
+   font-weight: var(--fontweight-medium);
+}

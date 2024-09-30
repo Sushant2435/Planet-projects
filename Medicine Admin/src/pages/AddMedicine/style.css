@@ -1,0 +1,66 @@
+.inventory_container{
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.add_inventory_container{
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+
+.add_inventory{
+    width: 70vw;
+    padding: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+
+.add_medicine_img{
+    width: 10vw;
+    height: 25vh;
+    border: 1px solid rgb(194, 194, 194);
+
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+}
+
+.add_medicine_flex{
+    display: flex;
+    gap: 20px;
+}
+
+.add_medicine_add_img{
+    width: 10vw;
+    height: 25vh;
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(198, 198, 198);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--fontweight-bold);
+    cursor: pointer;
+}
+
+.add_medicine_styling{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.add_inventory p{
+    font-family: "poppins" , "sans-serif";
+    font-size: var(--fontsize-xsmall);
+}
+
+.add_medicine_btn{
+    display: flex;
+    flex-direction: column;
+}
